@@ -16,6 +16,10 @@
 	color: #808080;
 	transition: 0.2s color ease-in;
 
+	&:last-child {
+		border-bottom: none;
+	}
+
 	&:hover {
 		color: $blue;
 		transition: 0.2s fill ease-in;
