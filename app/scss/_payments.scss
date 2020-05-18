@@ -1,0 +1,23 @@
+.payments {
+	display: flex;
+	align-items: center;
+}
+
+.payments__text {
+	margin-right: 30px;
+	color: #b8b8b8;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.payments__icons {
+	display: flex;
+	align-items: center;
+}
+
+.payments__icon {
+	& + & {
+		margin-left: 20px;
+	}
+}

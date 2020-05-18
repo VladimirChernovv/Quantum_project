@@ -1,0 +1,25 @@
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 16px;
+	text-decoration: none;
+
+	& + & {
+		margin-left: 34px;
+	}
+
+	svg {
+		fill: #666;
+	}
+
+	&:hover {
+		fill: $blue;
+	}
+}
